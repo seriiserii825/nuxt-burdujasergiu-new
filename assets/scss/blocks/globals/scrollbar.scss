@@ -1,8 +1,10 @@
-var(--scroll_bg: #191919);
-var(--scroll_color: lighten($scroll_bg, 20%));
+:root {
+  --scroll_bg: #191919;
+  --scroll_color: #f1f1f1;
+}
 * {
   scrollbar-width: thin;
-  scrollbar-color: var(--scroll_color $scroll_bg);
+  scrollbar-color: var(--scroll_bg);
 }
 
 /* для Chrome/Edge/Safari */

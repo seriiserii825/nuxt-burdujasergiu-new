@@ -23,10 +23,10 @@
       }
     }
     input {
-      @include placeholder-input(var(--text-light, left));
+      @include placeholder-input(var(--text-light);
     }
     textarea {
-      @include placeholder-textarea(var(--text-light, left));
+      @include placeholder-textarea(var(--text-light);
     }
   }
   input[type=submit] {
