@@ -21,7 +21,7 @@
     &.active {
       a {
         color: #fff;
-        background-color: $accent;
+        background-color: var(--accent);
       }
     }
   }

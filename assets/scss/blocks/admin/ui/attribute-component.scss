@@ -9,7 +9,7 @@
     cursor: pointer;
     &--active {
       color: white;
-      background: $accent;
+      background: var(--accent);
     }
   }
   &__item {

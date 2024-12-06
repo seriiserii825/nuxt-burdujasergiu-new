@@ -1,5 +1,5 @@
 .form {
-  color: $text-color;
+  color: var(--text-color);
   &-group {
     margin-bottom: 2rem;
     height: 4.9rem;
@@ -13,7 +13,7 @@
       height: 100%;
       @include miamo;
       font-size: 1.6rem;
-      color: $text-light;
+      color: var(--text-light);
       background-color: transparent;
       border: none;
       border-bottom: 1px solid #EBEBEB;
@@ -23,10 +23,10 @@
       }
     }
     input {
-      @include placeholder-input($text-light, left);
+      @include placeholder-input(var(--text-light, left));
     }
     textarea {
-      @include placeholder-textarea($text-light, left);
+      @include placeholder-textarea(var(--text-light, left));
     }
   }
   input[type=submit] {
@@ -99,7 +99,7 @@
     }
     a {
       text-decoration: underline;
-      color: $text-color;
+      color: var(--text-color);
       &:hover {
         text-decoration: none;
       }

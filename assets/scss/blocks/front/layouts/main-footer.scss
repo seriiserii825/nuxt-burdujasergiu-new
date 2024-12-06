@@ -1,6 +1,6 @@
 .main-footer {
   padding: 4rem 0;
-  border-top: 1px solid $accent;
+  border-top: 1px solid var(--accent);
   &__wrap {
     display: flex;
     justify-content: space-between;

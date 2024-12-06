@@ -20,7 +20,7 @@
     padding: 0;
     width: 6rem;
     height: 6rem;
-    background-color: $contrast;
+    background-color: var(--contrast);
     border-radius: 50%;
     &::before {
       display: none;
@@ -68,7 +68,7 @@
       &:hover,
       &:focus {
         color: white;
-        background-color: $accent;
+        background-color: var(--accent);
       }
     }
   }

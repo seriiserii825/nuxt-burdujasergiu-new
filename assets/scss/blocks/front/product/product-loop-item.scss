@@ -39,7 +39,7 @@
     color: #aaa;
     transition: all .4s;
     &:hover {
-      color: $accent-dark;
+      color: var(--accent-dark);
     }
   }
   &__price {
@@ -50,7 +50,7 @@
     svg {
       margin-right: 1rem;
       width: 2rem;
-      fill: $contrast;
+      fill: var(--contrast);
     }
   }
 }

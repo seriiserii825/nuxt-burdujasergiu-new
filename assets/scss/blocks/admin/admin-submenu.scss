@@ -12,7 +12,7 @@
     background: #292929;
     transition: all .4s;
     &.active {
-      background: $active;
+      background: var(--active);
     }
     a {
       position: relative;

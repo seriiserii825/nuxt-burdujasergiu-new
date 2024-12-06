@@ -1,7 +1,7 @@
 //grid
-$xs: 320px;
-$md: 768px;
-$xl: 1150px;
+var(--xs: 320px);
+var(--md: 768px);
+var(--xl: 1150px);
 //accent colors
 :root {
   --text-color: #222;

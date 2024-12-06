@@ -20,7 +20,7 @@ div.single-post {
   }
   strong {
     font-weight: bold;
-    color: $accent;
+    color: var(--accent);
   }
 }
 .single-post {
@@ -33,13 +33,13 @@ div.single-post {
     font-weight: bold;
     text-align: center;
     background: black;
-    border: 2px solid $accent;
+    border: 2px solid var(--accent);
     transition: all 0.4s;
     @media screen and (max-width: 576px) {
       padding: 1rem 2rem;
     }
     &:hover {
-      background: $accent;
+      background: var(--accent);
       color: black;
     }
   }
@@ -59,7 +59,7 @@ div.single-post {
     }
     a {
       text-decoration: underline;
-      color: $accent;
+      color: var(--accent);
     }
     h3,
     h2,
