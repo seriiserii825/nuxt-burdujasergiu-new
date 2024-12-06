@@ -6,7 +6,7 @@ html {
 }
 * {
   &:focus {
-    outline: 1px solid $accent;
+    outline: 1px solid var(--accent);
   }
 }
 body {
@@ -15,7 +15,7 @@ body {
   font-family: Roboto, sans-serif;
   font-size: 1.8rem;
   color: white;
-  background: $default;
+  background: var(--default);
   &::after {
     content: '';
     position: absolute;
@@ -34,8 +34,8 @@ body {
   }
 }
 .admin-layout {
-  color: $text-color;
-  background: $default;
+  color: var(--text-color);
+  background: var(--default);
 }
 * {
   box-sizing: border-box;
@@ -109,7 +109,7 @@ a {
   /* Internet Explorer/Edge */
 }
 *:focus {
-  outline: 1px solid $accent;
+  outline: 1px solid var(--accent);
 }
 .title {
   font-size: 5rem;

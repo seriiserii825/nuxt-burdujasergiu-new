@@ -1,23 +1,25 @@
-<template lang="pug">
-  div.intro
-    img(src="/images/intro-img.jpg" alt="")
-    .intro__content
-      h2  Burduja Sergiu
-      h3 WebDeveloper
-      Btn
-        nuxt-link(to="/services") Мои услуги
+<template>
+<div class="intro"><img src="/images/intro-img.jpg" alt=""/>
+  <div class="intro__content">
+    <h2> Burduja Sergiu</h2>
+    <h3>WebDeveloper</h3>
+    <Btn>
+      <nuxt-link to="/services">Мои услуги</nuxt-link>
+    </Btn>
+  </div>
+</div>
 </template>
-<script>
-import Btn from "~/components/ui/Btn";
-export default {
-  layout: '',
-  components: {
-    Btn
-  }
-}
+<script setup lang="ts">
+// import Btn from "~/components/ui/Btn";
+// export default {
+//   layout: '',
+//   components: {
+//     Btn
+//   }
+// }
 </script>
 <style lang="scss">
-@import "~/assets/scss/partials/variables.scss";
+//@import "~/assets/scss/partials/variables.scss";
 .intro {
   position: relative;
   height: 100%;
@@ -49,8 +51,8 @@ export default {
     margin-bottom: 4rem;
     font-size: 8rem;
     text-transform: uppercase;
-    color: $accent;
-    text-shadow: 2px 2px 4px rgba(0,0,0,.4);
+    color: var(--accent);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
   }
 }
 </style>

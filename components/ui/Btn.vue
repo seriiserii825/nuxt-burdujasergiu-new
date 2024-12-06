@@ -29,13 +29,13 @@ export default {
   text-transform: uppercase;
   letter-spacing: 1px;
   color: #fff;
-  background: $accent;
+  background: var(--accent);
   border: 1px solid hsla(0, 0%, 40%, .8);
   border-radius: 50px;
   transition: all .4s;
   cursor: pointer;
   &:hover {
-    background: darken($accent, 20%);
+    background: --accent-dark;
   }
   &.small {
     font-size: 1.2rem;
