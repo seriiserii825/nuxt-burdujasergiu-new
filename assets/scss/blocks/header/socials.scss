@@ -7,7 +7,7 @@
     align-items: center;
     width: 3.6rem;
     height: 3.6rem;
-    background-color: darken(var(--default, 20%));
+    background-color: var(--default);
     border-radius: 50%;
     transition: all .4s;
     &:hover {

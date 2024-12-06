@@ -4,7 +4,7 @@
   align-items: center;
   padding: 2rem;
   width: 100%;
-  background: darken(var(--default, 5%));
+  background: var(--default, 5%));
   &__toggle {
     flex: 0 0 2rem;
     cursor: pointer;
